@@ -3,7 +3,7 @@
     $code = $_POST['code'];
 
     $random = substr(md5(mt_rand()), 0, 7);
-    $random ="App";
+    // $random ="App";
     $filePath = "temp/" . $random . "." . $language;
     // echo $language. "  " . $random." ". $code;  
     $programFile = fopen($filePath, "w");
