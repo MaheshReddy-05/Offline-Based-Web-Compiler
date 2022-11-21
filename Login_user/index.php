@@ -11,7 +11,7 @@ if($result){
 	$row=mysqli_fetch_assoc($result);
 		if($row!=null)
 		{
-	header('location: /seproject/ui/ide.php');
+			header('location: /Ide/Online-Based-Web-Compiler/ui/ide.php');
 		}
 	else
      {
