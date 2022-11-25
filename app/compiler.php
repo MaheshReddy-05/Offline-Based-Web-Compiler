@@ -6,8 +6,13 @@ echo "Hello";
 
     $random = substr(md5(mt_rand()), 0, 7);
     // $random ="App";
+<<<<<<< HEAD
     $filePath = "temp/" . $random . "." . $language;
     echo $language. "  " . $random." ". $code;  
+=======
+    $filePath = "temp/" . $random. "." . $language;
+    // echo $language. "  " . $random." ". $code;  
+>>>>>>> 5bd14ee4d6076495311a8553d937758fc9d5cff1
     $programFile = fopen($filePath, "w");
     fwrite($programFile, $code);
     fclose($programFile);
